@@ -1,0 +1,103 @@
+.menu__item {
+    a:hover {
+        color: #6AC9B3;
+        transition: 0.3s
+    }
+}
+.header__btn:hover {
+    background-color: #0cd1a3;
+}
+.tajriba__number:hover {
+    box-shadow: 1px 2px 10px rgb(6, 228, 202);
+}
+.what__card:hover {
+    background-color: $btn-fon-color;
+    transition: 1s;
+    
+    .card__icon {
+        background-color: $text-black;
+    }
+
+    .card__title, .card__text {
+        color: $text-black;
+    }
+
+    .bx-window-alt, .bx-laptop, .bx-code-block {
+        color: white;
+    }
+
+}
+
+.me__card:hover {
+    background-color: $btn-fon-color;
+    transition: 1s;
+    transform: rotate(5deg);
+    .me__icon {
+        background: #161616;
+        color: white;
+        transition: 0.7s;
+    }
+
+    .me__name, .me__text {
+        color: black;
+        // transition: 0.7s;
+    }
+}
+
+.project__next {
+    .next__left:hover {
+        transition: 0.6s;
+        background-color: white;
+    }
+    .next__right:hover {
+        transition: 0.6s;
+        background-color: white;
+    }
+}
+
+.human__card:hover {
+    box-shadow: 1px 2px 10px rgb(6, 228, 202);
+}
+.bxs-send:hover {
+    box-shadow: 1px 2px 10px rgb(6, 228, 202);
+}
+input:focus {
+    box-shadow: 0.1px 0.1px 7px 0.1px rgb(6, 228, 202);
+    transition: 0.6s;
+}
+.terms__card:hover {
+
+    background-color: $btn-fon-color;
+    transition: 0.6s;
+    .bx-question-mark {
+        color: black;
+    }
+    .top__landing {
+        color: black;
+    }
+    .top__time {
+        color: black;
+    }
+    .time__watch {
+        color: black;
+    }
+    .time__day {
+        color: black;
+    }
+    .card__line {
+        border-color: black;
+    }
+    .card__bottom {
+        color: black;
+    }
+    .bottom__money {
+        color: black;
+    }
+    .dollar {
+        color: black;
+    }
+    .bottom__adaptive {
+        color: black;
+    }
+    
+}
